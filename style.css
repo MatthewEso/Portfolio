@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
 * {
   margin: 0;
@@ -31,7 +32,7 @@ html {
 }
 
 body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -40,14 +41,15 @@ body {
 
 /* Header */
 header {
-  width: 1000px;
-  margin-top: 20px;
-  justify-self: center;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: min(1000px, calc(100% - 2rem));
+  margin: 20px auto 0;
   border: 2px solid var(--border);
   border-radius: 15px;
   z-index: 100;
   background: var(--bg-primary);
-  border-bottom: 1px solid var(--border);
   transition: all 0.3s ease;
 }
 
@@ -152,7 +154,7 @@ p {
 
 /* Hero Section */
 .hero {
-  padding: 10rem 0 8rem 0;
+  padding: 8rem 0 5rem 0;
   border-bottom: none;
 }
 
